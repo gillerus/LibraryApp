@@ -1,0 +1,62 @@
+﻿<Window x:Class="LibraryApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="525" MinWidth="500" MaxWidth="800" MaxHeight="450" MinHeight="300">
+    <Grid>
+        <TabControl>
+            <TabItem Header="TabItem">
+                <StackPanel Width="500">
+                    <Grid Background="{DynamicResource ApplicationColorBackground}" Margin="25 10 25 25" Height="200" HorizontalAlignment="Left">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="1*"></ColumnDefinition>
+                            <ColumnDefinition Width="3*"></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                            <RowDefinition></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid.Resources>
+                            <Style TargetType="TextBlock">
+                                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                                <Setter Property="FontSize" Value="16"></Setter>
+                                <Setter Property="HorizontalAlignment" Value="Right"></Setter>
+                            </Style>
+                            <Style TargetType="TextBox">
+                                <Setter Property="VerticalAlignment" Value="Center"></Setter>
+                                <Setter Property="FontSize" Value="16"></Setter>
+                                <Setter Property="HorizontalAlignment" Value="Left"></Setter>
+                                <Setter Property="Width" Value="300"></Setter>
+                                <Setter Property="Height" Value="30"></Setter>
+                                <Setter Property="Margin" Value="10 0 0 0"></Setter>
+                                <Setter Property="VerticalContentAlignment" Value="Center"></Setter>
+                            </Style>
+                        
+                        </Grid.Resources>
+                        <TextBlock Grid.Column="0" Grid.Row="0" Text="Tytuł:" ></TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="1" Text="Autor:" ></TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="2" Text="Kategoria:" ></TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="3" Text="Strony:" ></TextBlock>
+                        <TextBlock Grid.Column="0" Grid.Row="4" Text="Opis:" ></TextBlock>
+
+                        <TextBox Grid.Column="1" Grid.Row="0"></TextBox>
+                        <TextBox Grid.Column="1" Grid.Row="1"></TextBox>
+                        <TextBox Grid.Column="1" Grid.Row="2"></TextBox>
+                        <TextBox Grid.Column="1" Grid.Row="3"></TextBox>
+                        <TextBox Grid.Column="1" Grid.Row="4"></TextBox>
+                    </Grid>
+                    <Button Content="Zapisz" Width="200" Height="30"></Button>
+                    <Button Content="Wyczyść" Width="200" Height="30" Margin="0 10 0 0"></Button>
+
+                </StackPanel>
+
+            </TabItem>
+            <TabItem Header="TabItem">
+                <Grid Background="{DynamicResource ApplicationColorBackground}"/>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

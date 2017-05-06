@@ -1,0 +1,14 @@
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\bin\Debug\LibraryApp.exe.config
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\bin\Debug\LibraryApp.exe
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\bin\Debug\LibraryApp.pdb
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\LibraryApp.csprojResolveAssemblyReference.cache
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\MainWindow.baml
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\MainWindow.g.cs
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\App.g.cs
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\LibraryApp_MarkupCompile.cache
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\LibraryApp.g.resources
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\LibraryApp.Properties.Resources.resources
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\LibraryApp.csproj.GenerateResource.Cache
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\LibraryApp.exe
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\LibraryApp.pdb
+C:\Users\Przemek\Documents\Visual Studio 2013\Projects\LibraryApp\LibraryApp\obj\Debug\App.baml
